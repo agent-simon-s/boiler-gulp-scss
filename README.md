@@ -1,4 +1,4 @@
-# boiler-gulp-sass
+# boiler-gulp-scss
 
 Currently has no external depenacies 
 A basic boiler plate of a modern js centric webproject with scss
