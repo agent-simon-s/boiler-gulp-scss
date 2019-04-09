@@ -1,0 +1,109 @@
+<!doctype html>
+<html class="no-js" lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>localDev: Gulp Demo</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="manifest" href="site.webmanifest">
+		<link rel="apple-touch-icon" href="icon.png">
+		<!-- Place favicon.ico in the root directory -->
+
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/root.css">
+		<!-- XXXXX gulp-inject syntax XXXXX-->	
+		<!--[htmlclean-protect]-->
+		<!-- inject:css -->
+		<!-- endinject -->
+		<!--[/htmlclean-protect]-->
+	</head>
+   <body>
+
+		<!--[if lte IE 9]>
+		   <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+		<![endif]-->
+
+
+		<!-- Add your site or application content here -->
+
+		<!-- my demo header -->
+		<header>
+			<div class="masthead"></div>
+			<nav class="main-nav">
+				<ul>
+					<li><a href="#1"><span class="caption">link 1</span></a></li>
+					<li><a href="#2"><span class="caption">link 2</span></a></li>
+					<li><a href="#3"><span class="caption">link 3</span></a></li>
+				</ul>
+			</nav>
+		</header>
+
+
+		<!-- my demo main content is here -->
+		<div id="main-content">
+			<section>
+				<div class="sec-content" id="sec-1">
+					<a name="1"><h2>Header 1</h2></a>
+					<p>Color copy for section 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus iusto voluptatum, deleniti eaque provident, voluptatem at accusamus perspiciatis nulla quam amet cumque architecto in id debitis. Minima corporis veritatis harum.</p>
+					<button id="sec-1-btn"><span class="caption">sec 1 button</span></button>
+				</div>
+			</section>
+			<section>
+				<div class="sec-content" id="sec-2">
+					<a name="2"><h2>Header 2</h2></a>
+					<p>Color copy for section 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aut laborum eaque voluptatem quia, nihil, placeat, id blanditiis distinctio corporis omnis earum nam. Temporibus alias id rerum sunt quo dignissimos.</p>
+					<button id="sec-2-btn"><span class="caption">sec 2 button</span></button>
+				</div>
+			</section>
+			<section>
+				<div class="sec-content" id="sec-3">
+					<a name="3"><h2>Header 3</h2></a>
+					<p>Color copy for section 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos libero similique vitae alias corporis, ullam debitis fugit rem dicta ab harum reiciendis aspernatur. Blanditiis corporis eos accusantium, voluptatum, veritatis rem.</p>
+					<button id="sec-3-btn"><span class="caption">sec 3 button</span></button>
+				</div>
+			</section>
+		</div>
+
+
+		<!-- my demo footer begins here -->
+		<footer>
+			<ul>
+				<li><a href="#1"><span class="caption">link 1</span></a></li>
+				<li><a href="#2"><span class="caption">link 2</span></a></li>
+				<li><a href="#3"><span class="caption">link 3</span></a></li>
+			</ul>
+		</footer>
+
+
+		<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+		<script src="js/plugins.js"></script>
+
+	
+
+<!-- XXXXX useref syntax XXXXX-->
+		<!--build:js js/main.min.js -->
+		<script src="scripts/util.js"></script>
+		<script src="scripts/tertiary.js"></script>
+		<script src="scripts/secondary.js"></script>
+		<script src="scripts/root.js"></script>
+		<!-- endbuild -->
+
+<!-- XXXXX gulp-inject syntax XXXXX-->	
+		<!--[htmlclean-protect]-->
+		<!-- inject:js -->
+		<!-- endinject -->
+		<!--[/htmlclean-protect]-->
+
+
+		<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+		<!-- <script>
+		   window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+		   ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+		</script>
+		<script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
+   </body>
+</html>
